@@ -9,7 +9,7 @@ function Nav() {
   return (
     <nav className="relative">
         <div className="flex px-10 sm:px-20 whitespace-nowrap space-x-10 sm:space-x-20 overflow-x-scroll scrollbar-hide">
-      {Object.entries(Requests).map(([key , {title , url }]) => 
+      {Object.entries(Requests).map(([key ,{title , url }]) => 
       (<h2 
         key={key}
         onClick={()=> router.push(`?genre${key}`) }

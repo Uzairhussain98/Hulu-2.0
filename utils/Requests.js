@@ -1,5 +1,6 @@
 const API_KEY = "d25cc9f04cb713b3a4eeb989a6f7faaa";
 
+
 export default {
     fetchTrending: {
         title: 'Trending',
@@ -8,10 +9,12 @@ export default {
     fetchTopRated: {
         title: 'Top Rated',
         url: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
+
     },
     fetchActionMovies: {
         title: 'Action',
         url: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
+
     },
     fetchComedyMovies: {
         title: 'Comedy',
@@ -36,6 +39,7 @@ export default {
     fetchWestern: {
         title: 'Western',
         url: `/discover/movie?api_key=${API_KEY}&with_genres=37`,
+        
     },
     fetchAnimation: {
         title: 'Animation',
